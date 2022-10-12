@@ -1,86 +1,92 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-.row{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-  
-  }
-  
-.logotop{
-    width: 134px;
-    height: 34px;
-    margin-top: 22.5px;
-   
+.MenuCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
-  
-  .menu{
-    height:79px;
-    width:1200px;
-    display:flex;
-  }
 
-  .menunav{
-   margin-top: 31.5px;
-   width: 410px;
-   margin-left: 209.28px;
-  
+.logotop {
+  width: 134px;
+  height: 34px;
+  margin-top: 22.5px;
 
-  }
+}
 
-.menumain{
-    text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    color: #424242;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-  }
+.menu {
+  height: 79px;
+  width: 1200px;
+  display: flex;
+}
 
-  .menumain:hover { 
-    color:#3563E9;
-  } 
+.menunav {
+  margin-top: 31.5px;
+  width: 410px;
+  margin-left: 209.28px;
 
-  .activ{
-    font-weight: 700;
-    color: #3563E9;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-  }
 
-  .activ:hover { 
-    color:#000000;
-  } 
+}
 
-  .topmenu{
-    margin-left: 27.85px;
-  }
+.menumain {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  color: #424242;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
 
-.language{
+.menumain:hover {
+  color: #3563E9;
+}
+
+.activ {
+  font-weight: 700;
+  color: #3563E9;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.activ:hover {
+  color: #000000;
+}
+
+.topmenu {
+  margin-left: 27.85px;
+}
+
+.language {
   width: 53px;
   height: 24px;
 }
 
-.languagetop{
+.languagetop {
   margin: 30px 0px 0px 241px;
 }
 
 .button {
-  color: #fff; /* цвет текста */
-  text-decoration: none; /* убирать подчёркивание у ссылок */
-  user-select: none; /* убирать выделение текста */
-  background: rgb(53 99 233); /* фон кнопки */
-  padding: 8px 22px 8px 22px; /* отступ от текста */
-  outline: none; /* убирать контур в Mozilla */
+  color: #fff;
+  /* цвет текста */
+  text-decoration: none;
+  /* убирать подчёркивание у ссылок */
+  user-select: none;
+  /* убирать выделение текста */
+  background: rgb(53 99 233);
+  /* фон кнопки */
+  padding: 8px 22px 8px 22px;
+  /* отступ от текста */
+  outline: none;
+  /* убирать контур в Mozilla */
   border-radius: 5px;
   width: 50px;
   height: 18px;
@@ -89,26 +95,25 @@
   justify-content: center;
 }
 
-.bottontop{
+.bottontop {
   margin: 25px 12px 25px 20px;
 }
 
-.bottontop:hover { 
-  background: rgb(255, 255, 255); 
+.bottontop:hover {
+  background: rgb(255, 255, 255);
   color: #3563E9;
   border: 1px solid black;
   border-color: #3563E9;
-} /* при наведении курсора мышки */
+}
 
-.SectionBlockTop{
+.SectionBlockTop {
   background-image: url(../img/bacgaundone.png);
   max-width: 100%;
   height: 730.81px;
 }
 
-.SectionBlockBox{
+.SectionBlockBox {
   padding-top: 195.5px;
-
 }
 
 .box {
@@ -117,8 +122,7 @@
   justify-content: center;
 }
 
-.SectionBlockTop p:nth-child(-n+2){
-
+.SectionBlockTop p:nth-child(-n+2) {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -127,65 +131,74 @@
   text-align: center;
   letter-spacing: 1.2px;
   text-transform: capitalize;
-  
   color: #212121;
-  
   flex: none;
   order: 0;
   align-self: stretch;
   flex-grow: 0;
   margin: 0px 0px 0px 0px;
-  
-  }
 
-  .SectionBlockTop p:nth-child(1n+3){
+}
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    /* text-align: center; */
-    letter-spacing: 0.2px;
-    
-    /* systemGrey/800 */
-    color: #424242;
-    
-    }
+.SectionBlockTop p:nth-child(1n+3) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* text-align: center; */
+  letter-spacing: 0.2px;
+  color: #424242;
 
+}
 
-    a.buttoncenter {
-      color: #fff; /* цвет текста */
-      text-decoration: none; /* убирать подчёркивание у ссылок */
-      user-select: none; /* убирать выделение текста */
-      background: rgb(53 99 233); /* фон кнопки */
-      padding: 11px 25px 8px 25px; /* отступ от текста */
-      outline: none; /* убирать контур в Mozilla */
-      /* border-radius: 5px; */
-      /* width: 50px;
-      height: 18px; */
-      margin: 25px 12px 25px 4px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  
-  a.buttoncentertwo {
-      color: #3563e9; /* цвет текста */
-      text-decoration: none; /* убирать подчёркивание у ссылок */
-      user-select: none; /* убирать выделение текста */
-      /* background: rgb(53 99 233); фон кнопки */
-      padding: 11px 25px 8px 25px; /* отступ от текста */
-      outline: none; /* убирать контур в Mozilla */
-      /* border-radius: 5px; */
-      /* width: 50px;
-      height: 18px; */
-      margin: 25px 12px 25px 4px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid black;
-      border-color: #3563e9;
-      background-color: white;
-  }
-  
+a.buttoncenter {
+  color: #fff;
+  /* цвет текста */
+  text-decoration: none;
+  /* убирать подчёркивание у ссылок */
+  user-select: none;
+  /* убирать выделение текста */
+  background: rgb(53 99 233);
+  /* фон кнопки */
+  padding: 11px 25px 8px 25px;
+  /* отступ от текста */
+  outline: none;
+  /* убирать контур в Mozilla */
+  margin: 25px 12px 25px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-color: #3563e9;
+}
+
+a.buttoncentertwo {
+  color: #3563e9;
+  /* цвет текста */
+  text-decoration: none;
+  /* убирать подчёркивание у ссылок */
+  user-select: none;
+  /* убирать выделение текста */
+  padding: 11px 25px 8px 25px;
+  /* отступ от текста */
+  outline: none;
+  /* убирать контур в Mozilla */
+  margin: 25px 12px 25px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-color: #3563e9;
+  background-color: white;
+}
+
+a.buttoncenter:hover {
+  background: rgb(255, 255, 255);
+  color: #3563e9;
+}
+
+a.buttoncentertwo:hover {
+  background: rgb(126, 126, 126);
+  color: #ffffff;
+}
