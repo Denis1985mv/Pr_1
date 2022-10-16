@@ -1,204 +1,393 @@
 * {
-  margin: 0px;
-  padding: 0px;
-}
-
-.MenuCenter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.logotop {
-  width: 134px;
-  height: 34px;
-  margin-top: 22.5px;
-
-}
-
-.menu {
-  height: 79px;
-  width: 1200px;
-  display: flex;
-}
-
-.menunav {
-  margin-top: 31.5px;
-  width: 410px;
-  margin-left: 209.28px;
+    margin: 0px;
+    padding: 0px;
+  }
   
-}
-
-.menumain {
-  text-decoration: none;
-  list-style-type: none;
-  display: flex;
-  color: #424242;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.menumain:hover {
-  color: #3563E9;
-}
-
-.activ {
-  font-weight: 700;
-  color: #3563E9;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.activ:hover {
-  color: #000000;
-}
-
-.topmenu {
-  margin-left: 27.85px;
-}
-
-.language {
-  width: 53px;
-  height: 24px;
-}
-
-.languagetop {
-  margin: 30px 0px 0px 241px;
-}
-
-.button {
-  color: #fff;
-  /* цвет текста */
-  text-decoration: none;
-  /* убирать подчёркивание у ссылок */
-  user-select: none;
-  /* убирать выделение текста */
-  background: rgb(53 99 233);
-  /* фон кнопки */
-  padding: 8px 22px 8px 22px;
-  /* отступ от текста */
-  outline: none;
-  /* убирать контур в Mozilla */
-  border-radius: 5px;
-  width: 50px;
-  height: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bottontop {
-  margin: 25px 12px 25px 20px;
-}
-
-.bottontop:hover {
-  background: rgb(255, 255, 255);
-  color: #3563E9;
-  border: 1px solid black;
-  border-color: #3563E9;
-}
-
-.SectionBlockTop {
-  background-image: url(../img/bacgaundone.png);
-  max-width: 100%;
-  height: 730.81px;
-}
-
-.SectionBlockBox {
-  padding-top: 195.5px;
-}
-
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.SectionBlockTop p:nth-child(-n+2) {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 77px;
-  text-align: center;
-  letter-spacing: 1.2px;
-  text-transform: capitalize;
-  color: #212121;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 0px 0px 0px 0px;
-
-}
-
-.SectionBlockTop p:nth-child(1n+3) {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  /* text-align: center; */
-  letter-spacing: 0.2px;
-  color: #424242;
-
-}
-
-a.buttoncenter {
-  color: #fff;
-  /* цвет текста */
-  text-decoration: none;
-  /* убирать подчёркивание у ссылок */
-  user-select: none;
-  /* убирать выделение текста */
-  background: rgb(53 99 233);
-  /* фон кнопки */
-  padding: 11px 25px 8px 25px;
-  /* отступ от текста */
-  outline: none;
-  /* убирать контур в Mozilla */
-  margin: 25px 12px 25px 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  border-color: #3563e9;
-}
-
-a.buttoncentertwo {
-  color: #3563e9;
-  /* цвет текста */
-  text-decoration: none;
-  /* убирать подчёркивание у ссылок */
-  user-select: none;
-  /* убирать выделение текста */
-  padding: 11px 25px 8px 25px;
-  /* отступ от текста */
-  outline: none;
-  /* убирать контур в Mozilla */
-  margin: 25px 12px 25px 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  border-color: #3563e9;
-  background-color: white;
-}
-
-a.buttoncenter:hover {
-  background: rgb(255, 255, 255);
-  color: #3563e9;
-}
-
-a.buttoncentertwo:hover {
-  background: rgb(126, 126, 126);
-  color: #ffffff;
-}
-
+  .MenuCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .logotop {
+    width: 134px;
+    height: 34px;
+    margin-top: 22.5px;
+  
+  }
+  
+  .menu {
+    height: 79px;
+    width: 1200px;
+    display: flex;
+  }
+  
+  .menunav {
+    margin-top: 31.5px;
+    width: 410px;
+    margin-left: 209.28px;
+    
+  }
+  
+  .menumain {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    color: #424242;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  .menumain:hover {
+    color: #3563E9;
+  }
+  
+  .activ {
+    font-weight: 700;
+    color: #3563E9;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  .activ:hover {
+    color: #000000;
+  }
+  
+  .topmenu {
+    margin-left: 27.85px;
+  }
+  
+  .language {
+    width: 53px;
+    height: 24px;
+  }
+  
+  .languagetop {
+    margin: 30px 0px 0px 241px;
+  }
+  
+  .button {
+    color: #fff;
+    /* цвет текста */
+    text-decoration: none;
+    /* убирать подчёркивание у ссылок */
+    user-select: none;
+    /* убирать выделение текста */
+    background: rgb(53 99 233);
+    /* фон кнопки */
+    padding: 8px 22px 8px 22px;
+    /* отступ от текста */
+    outline: none;
+    /* убирать контур в Mozilla */
+    border-radius: 5px;
+    width: 50px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bottontop {
+    margin: 25px 12px 25px 20px;
+  }
+  
+  .bottontop:hover {
+    background: rgb(255, 255, 255);
+    color: #3563E9;
+    border: 1px solid black;
+    border-color: #3563E9;
+  }
+  
+  .SectionBlockTop {
+    background-image: url(../img/bacgaundone.png);
+    max-width: 100%;
+    height: 730.81px;
+  }
+  
+  .SectionBlockBox {
+    padding-top: 195.5px;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .SectionBlockTop p:nth-child(-n+2) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    color: #212121;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px 0px 0px;
+  
+  }
+  
+  .SectionBlockTop p:nth-child(1n+3) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* text-align: center; */
+    letter-spacing: 0.2px;
+    color: #424242;
+  
+  }
+  
+  a.buttoncenter {
+    color: #fff;
+    /* цвет текста */
+    text-decoration: none;
+    /* убирать подчёркивание у ссылок */
+    user-select: none;
+    /* убирать выделение текста */
+    background: rgb(53 99 233);
+    /* фон кнопки */
+    padding: 11px 25px 8px 25px;
+    /* отступ от текста */
+    outline: none;
+    /* убирать контур в Mozilla */
+    margin: 25px 12px 25px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-color: #3563e9;
+  }
+  
+  a.buttoncentertwo {
+    color: #3563e9;
+    /* цвет текста */
+    text-decoration: none;
+    /* убирать подчёркивание у ссылок */
+    user-select: none;
+    /* убирать выделение текста */
+    padding: 11px 25px 8px 25px;
+    /* отступ от текста */
+    outline: none;
+    /* убирать контур в Mozilla */
+    margin: 25px 12px 25px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-color: #3563e9;
+    background-color: white;
+  }
+  
+  a.buttoncenter:hover {
+    background: rgb(255, 255, 255);
+    color: #3563e9;
+  }
+  
+  a.buttoncentertwo:hover {
+    background: rgb(126, 126, 126);
+    color: #ffffff;
+  }
+  
+  
+  
+  
+  .clients, .users, .usersInfo, .stars, .callToAction, .blockOfUsers{
+      display: flex;
+  }
+  
+  .clients{
+      justify-content: center;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      width: 100%;
+      max-width: 1440px;
+      margin: auto;
+  }
+  
+  .text2{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24.2px;
+      color: dimgrey;
+      width: 398px;
+      text-align: center;
+      margin: auto;
+  }
+  
+  .text1{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 58.09px;
+      width: 952px;
+      margin-top: 80px;
+      text-align: center;
+  }
+  
+  .users{
+      justify-content: center;
+      flex-wrap: wrap;
+      align-content:flex-start;
+      width: 100%;
+      max-width: 1094px;
+      margin: auto;
+      margin-top: 40px;
+  }
+  
+  .usersInfo{
+      justify-content: center;
+      flex-wrap: wrap;
+      align-content:center;
+      width: 100%;
+      max-width: 1054px;
+      margin: 20px;
+  }
+  
+  .img{
+      width: 50px;
+      height: 50px;
+      padding-right: 21px;
+      padding-top: 136.5px;
+  }
+  
+  .img1{
+      width: 50px;
+      height: 50px;
+      padding-left: 21px;
+      padding-top: 136.5px;
+  }
+  
+  .user{
+      width: 414px;
+      height: 323px;
+      padding-left: 21px;
+      padding-right: 21px;
+  }
+  
+  .firstStar{
+      width: 20px;
+      height: 19.02px;
+      margin: auto;
+      margin-right: 6px;
+  }
+  
+  .star{
+      width: 20px;
+      height: 19.02px;
+      margin: auto;
+      margin-left: 6px;
+      margin-right: 6px;
+  }
+  
+  .lastStar{
+      width: 20px;
+      height: 19.02px;
+      margin: auto;
+      margin-left: 6px;
+  }
+  
+  .comment{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 32px;
+      height: 128px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 30px;
+      text-align: center;
+      box-sizing: border-box;
+      overflow: auto;
+  }
+  
+  .avatar{
+      width: 40px;
+      height: 40px;
+      margin-top: 27px;
+      margin-left: 187px;
+      margin-right: 187px;
+  }
+  
+  .username{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16.94px;
+      color: dimgray;
+      text-align: center;
+      margin-top: 8px;
+      margin-left: 152px;
+      margin-right: 152px;
+  }
+  
+  .callToAction{
+      justify-content: center;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      max-width: 1440px;
+      width: 100%;
+      margin: auto;
+  }
+  
+  .information{
+      margin-top: 80px;
+      margin-left: 120px;
+      margin-right: 120px;
+  }
+  
+  .callToActionText{
+      margin-top: 60px;
+      margin-left: 124px;
+      margin-right: 124px;
+  }
+  
+  .actionText1{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24.2px;
+      color: dimgrey;
+      text-align: center;
+      margin: auto;
+      margin-left: 342px;
+      margin-right: 342px;
+  }
+  
+  .actionText2{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 58.09px;
+      width: 952px;
+      text-align: center;
+      margin-top: 24px;
+  }
+  
+  .actionButton{
+      width: 230px;
+      margin-top: 48px;
+      margin-left: 485px;
+      margin-bottom: 140px;
+  }
+  
